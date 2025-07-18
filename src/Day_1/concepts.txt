@@ -1,0 +1,31 @@
+✅ Day 1: Introduction to OOP, Classes & Objects, Encapsulation
+
+* Object-Oriented-Programming :
+- It is a programming paradigm that organizes code using objects.
+- It represents real-world entities with properties(data) and behaviour(methods).
+- Encapsulation | Inheritance | Abstraction | Polymorphism
+
+* Classes & Objects :
+- Class |  A blueprint or template to create objects.
+- Object | An instance of class
+
+* Encapsulation | Data Hiding :
+- It bundles data & method together, that operate on data within a class.
+- It restrict direct access of the data outside the class using access modifiers.
+
+* Benefits :
+- Protects object integrity | Hide complexity | Increase code maintainability
+
+* Real world use cases :
+- ATM system : Balance is encapsulated, users can only withdraw or deposit via public methods.
+
+
+* Interview Q&A -
+* How encapsulation implemented in Java ?
+- Using private access modifier for variable(data)
+- And public getter/setter to access or modify them
+- It protects the internal state & hides implementation details
+
+* Summary :
+- Class defined the structure but Object is the real entity.
+- Encapsulation hides the data using private fields and public methods.
