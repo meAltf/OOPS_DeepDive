@@ -1,7 +1,5 @@
 package Day_2;
 
-import java.time.Period;
-
 class Person {
     String name;
     int age;
