@@ -19,7 +19,7 @@ public class DemoMethodOverriding {
 
     public static void main(String[] args) {
 
-        AnimalMO cat = new AnimalMO();
+        Cat cat = new Cat();
         cat.makeSound();
     }
 }
