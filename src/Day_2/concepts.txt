@@ -1,0 +1,32 @@
+🗓️ Day 2: Inheritance, Method Overriding, and super Keyword
+
+* Inheritance :
+- It is a mechanism where a new class(child/subclass) inherits properties and behaviour(fields & methods) from an existing class(parent/superclass).
+
+* Why use it:
+- Reuse common code | Establish IS-A relationship [ If Dog extends Animal, Dog IS-A Animal. ]
+
+* Types of Inheritance in Java :
+- Single        | A-> B
+- Multiple      | A->B->C
+- Hierarchical  | A->B, A->C
+- MultiLevel    | A,B -> C | ❌ Not with classes (✅ With interfaces)
+
+* Method Overriding :
+- When a subclass provides its own implementation of a method that is already defined in its super class.
+
+* Key rules for method overriding :
+- Method name and parameters must match.
+- Use @Override annotation to avoid mistake. | MUST
+
+* Super keyword :
+- Access super class methods or constructors from subclass.
+
+* Interview Q&A :
+
+* Can constructors be inherited ?
+- No, Constructors are not inherited.
+- But, superclass constructors can be called using super().
+
+NOTE :
+1. Private members are not inherited, Use protected if subclass access needed.
