@@ -30,5 +30,12 @@ public class RunTimePolymorphism {
 
         animal1.sound(); // Dog
         animal2.sound(); // Cat
+
+        /* InstanceOf() example */
+        if (animal1 instanceof Dog) {
+            System.out.println("animal1 is instance of Animal class");
+        }
     }
+
+
 }
