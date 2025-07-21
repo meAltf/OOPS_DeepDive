@@ -1,0 +1,36 @@
+🗓️ Day 3: Polymorphism in Java (Compile-time & Runtime), instanceof Operator
+
+* Polymorphism :
+- It means many forms. It allows a single interface (or method) to behave differently based on the object type.
+- It enables : Dynamic behavior | Clean, maintainable code | Flexibility in design
+
+* Types of polymorphism :
+1. Compile time :
+- Same method Name, different parameters (type/number/order)
+- Static | Method Overloading | During compilation
+
+2. Runtime :
+- Method resolution happens at runtime based on the Object type, not reference type
+- Dynamic | Method Overriding + Dynamic binding | During program execution
+
+* instanceOf() Operator :
+- Used to test whether an object is an instance of class or subclass.
+- It helps to identify the actual object type at runtime before casting/invoking methods.
+
+* Interview Q&A :
+1. Difference Overriding & Overloading :
+- Overriding : Same methodName, different params | Compile-time | Can occur in same class.
+- Overloading : Same methodName, same params | Runtime | Must be in subclass.
+
+2. What is Dynamic method dispatch ?
+- It's a process by which a call to an overridden method is resolved at run time, based on the Object's actual type.
+
+3. What is upcasting ?
+- Means, storing subclass object in a superclass reference.
+- It helps in achieving runtime polymorphism.
+- Ex : Animal a = new Dog(); // Upcasting
+
+
+NOTE :
+- We can't override static methods because they belong to the class, not instance, so they are hidden. Not able to override
+
