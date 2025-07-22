@@ -1,0 +1,29 @@
+🗓️ Day 4: Abstraction, Abstract Classes, and Interfaces
+
+* Abstraction :
+- It is a process of hiding the internal implementation details and showing only essentials features to the user.
+- Focuses on: What an object does, not how does it
+
+* Abstract class :
+- It can have abstract methods (no body) and concrete(simple) methods.
+- Cannot be instantiated directly.
+- Subclass must override abstract methods.
+- Constructor allowed.
+
+* Interface :
+- Interface like, A pure Abstraction. All methods are abstract by default (until java7).
+- Interface define a contract that implementing classes must follow.
+- Implicitly All methods are public & abstract.
+- Constructor not allowed.
+
+* Interface default & Static methods (Java 8+)
+- default methods can have body, and also it can be overridden.
+- Static methods belongs to interface, it can't be belongs to instances.
+
+* Interview Q&A :
+1. Can an interface have fields ?
+- Yes, but only "public static final" constants.
+
+
+NOTE :
+- A class can extend abstract class and implement an interface.
