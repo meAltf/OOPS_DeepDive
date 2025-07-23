@@ -81,4 +81,4 @@ Java-OOP-Deep-Dive/
 ## ✅ Author
 
 Crafted with clarity & structure by **[Alataf]** — a passionate Java Backend Engineer & problem solver.  
-📬 Feel free to connect on [LinkedIn](3. https://www.linkedin.com/in/mealtf/) or ⭐ star this repo if you found it useful!
+📬 Feel free to connect on [https://www.linkedin.com/in/mealtf/](meAltf) or ⭐ star this repo if you found it useful!
