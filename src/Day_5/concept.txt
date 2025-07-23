@@ -1,0 +1,19 @@
+🗓️ Day 5: SOLID Principles, Real-World Patterns
+
+* SOLID :
+- An acronym for "object-oriented design principles" that make software easy to maintain and extend.
+
+- S: Single Responsibility Principle | A class should have only one reason to change | Each class should handle only one JOB.
+- O: Open/Closed Principle | Software entities open for extension but closed for modification.
+- L: Liskov Substitution Principle | Subtypes should behave like their parent class without altering correctness.
+- I: Interface Segregation Principle | Don't force classes to implement unused methods.
+- D: Dependency Inversion Principle | Depends on abstractions, not concretions
+
+* Real-World Design Patterns Related to SOLID
+| Pattern              | Description                                   | SOLID Principle       |
+| -------------------- | --------------------------------------------- | --------------------- |
+| Strategy Pattern     | Define family of algorithms (e.g., discounts) | Open/Closed Principle |
+| Factory Pattern      | Delegate object creation to a factory         | DIP                   |
+| Adapter Pattern      | Convert interface of one class to another     | ISP, LSP              |
+| Decorator Pattern    | Add responsibilities dynamically              | Open/Closed Principle |
+| Dependency Injection | Inject dependencies instead of creating them  | DIP                   |
